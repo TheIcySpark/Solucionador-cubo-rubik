@@ -1,0 +1,394 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Cubo.gd" type="Script" id=1]
+[ext_resource path="res://Escenas/Cuadro.tscn" type="PackedScene" id=2]
+
+[node name="Cubo" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="GridContainer" type="GridContainer" parent="."]
+editor/display_folded = true
+margin_left = 688.181
+margin_right = 849.181
+margin_bottom = 146.0
+columns = 3
+
+[node name="Cuadro" parent="GridContainer" instance=ExtResource( 2 )]
+margin_right = 51.0
+margin_bottom = 46.0
+
+[node name="Cuadro2" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 55.0
+margin_right = 106.0
+margin_bottom = 46.0
+
+[node name="Cuadro3" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 110.0
+margin_right = 161.0
+margin_bottom = 46.0
+
+[node name="Cuadro4" parent="GridContainer" instance=ExtResource( 2 )]
+margin_top = 50.0
+margin_right = 51.0
+margin_bottom = 96.0
+
+[node name="Cuadro5" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 55.0
+margin_top = 50.0
+margin_right = 106.0
+margin_bottom = 96.0
+
+[node name="Cuadro6" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 110.0
+margin_top = 50.0
+margin_right = 161.0
+margin_bottom = 96.0
+
+[node name="Cuadro7" parent="GridContainer" instance=ExtResource( 2 )]
+margin_top = 100.0
+margin_right = 51.0
+margin_bottom = 146.0
+
+[node name="Cuadro8" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 55.0
+margin_top = 100.0
+margin_right = 106.0
+margin_bottom = 146.0
+
+[node name="Cuadro9" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 110.0
+margin_top = 100.0
+margin_right = 161.0
+margin_bottom = 146.0
+
+[node name="GridContainer2" type="GridContainer" parent="."]
+editor/display_folded = true
+margin_left = 520.0
+margin_top = 156.0
+margin_right = 681.0
+margin_bottom = 302.0
+columns = 3
+
+[node name="Cuadro" parent="GridContainer2" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_right = 51.0
+margin_bottom = 46.0
+
+[node name="Cuadro2" parent="GridContainer2" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_right = 106.0
+margin_bottom = 46.0
+
+[node name="Cuadro3" parent="GridContainer2" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_right = 161.0
+margin_bottom = 46.0
+
+[node name="Cuadro4" parent="GridContainer2" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 50.0
+margin_right = 51.0
+margin_bottom = 96.0
+
+[node name="Cuadro5" parent="GridContainer2" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 50.0
+margin_right = 106.0
+margin_bottom = 96.0
+
+[node name="Cuadro6" parent="GridContainer2" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 50.0
+margin_right = 161.0
+margin_bottom = 96.0
+
+[node name="Cuadro7" parent="GridContainer2" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 100.0
+margin_right = 51.0
+margin_bottom = 146.0
+
+[node name="Cuadro8" parent="GridContainer2" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 100.0
+margin_right = 106.0
+margin_bottom = 146.0
+
+[node name="Cuadro9" parent="GridContainer2" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 100.0
+margin_right = 161.0
+margin_bottom = 146.0
+
+[node name="GridContainer3" type="GridContainer" parent="."]
+editor/display_folded = true
+margin_left = 688.181
+margin_top = 156.0
+margin_right = 849.181
+margin_bottom = 302.0
+columns = 3
+
+[node name="Cuadro" parent="GridContainer3" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_right = 51.0
+margin_bottom = 46.0
+
+[node name="Cuadro2" parent="GridContainer3" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_right = 106.0
+margin_bottom = 46.0
+
+[node name="Cuadro3" parent="GridContainer3" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_right = 161.0
+margin_bottom = 46.0
+
+[node name="Cuadro4" parent="GridContainer3" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 50.0
+margin_right = 51.0
+margin_bottom = 96.0
+
+[node name="Cuadro5" parent="GridContainer3" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 50.0
+margin_right = 106.0
+margin_bottom = 96.0
+
+[node name="Cuadro6" parent="GridContainer3" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 50.0
+margin_right = 161.0
+margin_bottom = 96.0
+
+[node name="Cuadro7" parent="GridContainer3" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 100.0
+margin_right = 51.0
+margin_bottom = 146.0
+
+[node name="Cuadro8" parent="GridContainer3" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 100.0
+margin_right = 106.0
+margin_bottom = 146.0
+
+[node name="Cuadro9" parent="GridContainer3" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 100.0
+margin_right = 161.0
+margin_bottom = 146.0
+
+[node name="GridContainer4" type="GridContainer" parent="."]
+editor/display_folded = true
+margin_left = 852.0
+margin_top = 156.0
+margin_right = 1013.0
+margin_bottom = 302.0
+columns = 3
+
+[node name="Cuadro" parent="GridContainer4" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_right = 51.0
+margin_bottom = 46.0
+
+[node name="Cuadro2" parent="GridContainer4" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_right = 106.0
+margin_bottom = 46.0
+
+[node name="Cuadro3" parent="GridContainer4" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_right = 161.0
+margin_bottom = 46.0
+
+[node name="Cuadro4" parent="GridContainer4" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 50.0
+margin_right = 51.0
+margin_bottom = 96.0
+
+[node name="Cuadro5" parent="GridContainer4" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 50.0
+margin_right = 106.0
+margin_bottom = 96.0
+
+[node name="Cuadro6" parent="GridContainer4" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 50.0
+margin_right = 161.0
+margin_bottom = 96.0
+
+[node name="Cuadro7" parent="GridContainer4" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 100.0
+margin_right = 51.0
+margin_bottom = 146.0
+
+[node name="Cuadro8" parent="GridContainer4" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 100.0
+margin_right = 106.0
+margin_bottom = 146.0
+
+[node name="Cuadro9" parent="GridContainer4" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 100.0
+margin_right = 161.0
+margin_bottom = 146.0
+
+[node name="GridContainer5" type="GridContainer" parent="."]
+editor/display_folded = true
+margin_left = 688.181
+margin_top = 310.0
+margin_right = 849.181
+margin_bottom = 456.0
+columns = 3
+
+[node name="Cuadro" parent="GridContainer5" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_right = 51.0
+margin_bottom = 46.0
+
+[node name="Cuadro2" parent="GridContainer5" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_right = 106.0
+margin_bottom = 46.0
+
+[node name="Cuadro3" parent="GridContainer5" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_right = 161.0
+margin_bottom = 46.0
+
+[node name="Cuadro4" parent="GridContainer5" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 50.0
+margin_right = 51.0
+margin_bottom = 96.0
+
+[node name="Cuadro5" parent="GridContainer5" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 50.0
+margin_right = 106.0
+margin_bottom = 96.0
+
+[node name="Cuadro6" parent="GridContainer5" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 50.0
+margin_right = 161.0
+margin_bottom = 96.0
+
+[node name="Cuadro7" parent="GridContainer5" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 100.0
+margin_right = 51.0
+margin_bottom = 146.0
+
+[node name="Cuadro8" parent="GridContainer5" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 100.0
+margin_right = 106.0
+margin_bottom = 146.0
+
+[node name="Cuadro9" parent="GridContainer5" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 100.0
+margin_right = 161.0
+margin_bottom = 146.0
+
+[node name="GridContainer6" type="GridContainer" parent="."]
+editor/display_folded = true
+margin_left = 688.181
+margin_top = 460.0
+margin_right = 849.181
+margin_bottom = 606.0
+columns = 3
+
+[node name="Cuadro" parent="GridContainer6" instance=ExtResource( 2 )]
+margin_right = 51.0
+margin_bottom = 46.0
+
+[node name="Cuadro2" parent="GridContainer6" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_right = 106.0
+margin_bottom = 46.0
+
+[node name="Cuadro3" parent="GridContainer6" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_right = 161.0
+margin_bottom = 46.0
+
+[node name="Cuadro4" parent="GridContainer6" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 50.0
+margin_right = 51.0
+margin_bottom = 96.0
+
+[node name="Cuadro5" parent="GridContainer6" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 50.0
+margin_right = 106.0
+margin_bottom = 96.0
+
+[node name="Cuadro6" parent="GridContainer6" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 50.0
+margin_right = 161.0
+margin_bottom = 96.0
+
+[node name="Cuadro7" parent="GridContainer6" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_top = 100.0
+margin_right = 51.0
+margin_bottom = 146.0
+
+[node name="Cuadro8" parent="GridContainer6" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 55.0
+margin_top = 100.0
+margin_right = 106.0
+margin_bottom = 146.0
+
+[node name="Cuadro9" parent="GridContainer6" instance=ExtResource( 2 )]
+editor/display_folded = true
+margin_left = 110.0
+margin_top = 100.0
+margin_right = 161.0
+margin_bottom = 146.0
+
+[editable path="GridContainer3/Cuadro"]
+
+[editable path="GridContainer4/Cuadro"]
+
+[editable path="GridContainer5/Cuadro"]
+
+[editable path="GridContainer6/Cuadro"]
