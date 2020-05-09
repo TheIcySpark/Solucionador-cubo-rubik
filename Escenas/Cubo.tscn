@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scripts/Cubo.gd" type="Script" id=1]
 [ext_resource path="res://Escenas/Cuadro.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Escenas/GUI.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Letras/LetraGUI.tres" type="DynamicFont" id=4]
 
 [node name="Cubo" type="Node2D"]
 script = ExtResource( 1 )
@@ -384,6 +386,29 @@ margin_left = 110.0
 margin_top = 100.0
 margin_right = 161.0
 margin_bottom = 146.0
+
+[node name="GUI" parent="." instance=ExtResource( 3 )]
+margin_left = 10.0
+margin_top = 580.0
+margin_right = 10.0
+margin_bottom = 580.0
+
+[node name="Resolver" type="Button" parent="."]
+margin_left = 10.0
+margin_top = 320.0
+margin_right = 170.0
+margin_bottom = 370.0
+custom_fonts/font = ExtResource( 4 )
+text = "Resolver"
+
+[node name="Retoralimentacion" type="Label" parent="."]
+margin_left = 280.0
+margin_top = 380.0
+margin_right = 547.0
+margin_bottom = 423.0
+custom_fonts/font = ExtResource( 4 )
+text = "Retroalimentacion"
+[connection signal="button_down" from="Resolver" to="." method="_on_Resolver_button_down"]
 
 [editable path="GridContainer3/Cuadro"]
 
